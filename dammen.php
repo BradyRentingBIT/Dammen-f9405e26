@@ -13,5 +13,5 @@ class Dammen
     }
 }
 
-$checkers = new Dammen();
-$checkers->welcome();
+$dammen = new Dammen();
+$dammen->welcome();
