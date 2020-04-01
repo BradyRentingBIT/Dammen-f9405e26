@@ -49,7 +49,6 @@ class Bord
                     $square->removeStone();
                 }
             }
-
         }
 
         if (isset($from, $to)) {

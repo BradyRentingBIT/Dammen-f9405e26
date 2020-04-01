@@ -50,6 +50,5 @@ class DamSpel
             return $this->getNextMove($index);
         }
         return $zet;
-
     }
 }
