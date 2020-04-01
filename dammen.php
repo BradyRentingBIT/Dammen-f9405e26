@@ -1,7 +1,8 @@
 <?php
 
-spl_autoload_register(static function ($className) {
-    include_once $className . '.class' . '.php';
+spl_autoload_register(static function ($className)
+{
+    include_once "$className.class.php";
 });
 
 class Dammen

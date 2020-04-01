@@ -49,7 +49,6 @@ class DamSpel
             print 'This move is not valid, please try again. ' . PHP_EOL;
             return $this->getNextMove($index);
         }
-
         return $zet;
 
     }
